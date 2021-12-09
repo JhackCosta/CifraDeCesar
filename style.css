@@ -1,0 +1,103 @@
+* {
+    font-size: 1.1em;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Pirata One', cursive;
+}
+
+body {
+    background-image: url("./imagens/4k-binary-code-blue-background-creative-digits.jpg");
+    height: 1000px;
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fundo {
+    height: 1200px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formulario {
+    background-image: url("./imagens/fundoTeste.jpg");
+    height: 850px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.caps {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#resultado {
+    border-radius: 10px;
+    height: 40px;
+}
+
+.decodificador {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+#some {
+    display: none;
+}
+
+.escolha {
+    margin-top: 18px;
+    display: flex;
+    width: 500px;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.caixa {
+    width: 40px;
+    height: 20px;
+}
+
+.rodaPe {
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+#msg {
+    display: flex;
+    justify-content: center;
+}
+
+.branca {
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 150px;
+}
+
+.icone {
+    height: 50px;
+}
+
+.teste {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 15px;
+    margin-top: 1px;
+}
+
+.fraseEscolha {
+    margin-left: 3em;
+}

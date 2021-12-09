@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./imagens/Icons8-Ios7-Very-Basic-Code.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Pirata+One&display=swap" rel="stylesheet">
+    <title>Converter</title>
+</head>
+
+<body>
+    <div class="cabecalho">
+        <h1>Bem vindo!</h1>
+    </div>
+
+    <div class="fundo">
+
+        <form class="formulario">
+            <div>
+                <div class="caps">
+                    <div>
+                        <label for="texto" id="inserir" class="fraseEscolha"> Insira o Texto </label>
+                        <input type="text" id="texto">
+                    </div>
+                    <div>
+                        <select class="select">
+                            <option value="1"> Escolha </option>
+                            <option value="2"> Cifra de césar </option> 
+                            <option value="3"> Base64 </option>
+                        </select>
+                    </div>
+
+                    <div id="some">
+                        <label for="texto"> Digite os Passos </label>
+                        <input type="number" id="number" min="0" max="25" placeholder="0">
+                    </div>
+
+                    <div>
+                        <label for="texto" class="fraseEscolha"> Texto Decodificado </label>
+                        <div class="branca">
+                            <output type="text" id="resultado">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="decodificador">
+                    <div class="escolha">
+                        <div>
+                            <input type="radio" name="opcoes" value="1" class="caixa" id="codificar" />Codificar
+                        </div>
+
+                        <div>
+                            <input type="radio" name="opcoes" value="2" class="caixa" id="decodificar" />Decodificar
+                        </div>
+                    </div>
+
+                </div>
+
+                <div>
+                    <button id="msg" type="submit" class="fraseEscolha">Vamos Lá!</button>
+                </div>
+
+            </div>
+
+
+
+
+
+        </form>
+
+    </div>
+
+    <div class="rodaPe">
+        <div>
+            <h3>Criado por Jhack Costa</h3>
+        </div>
+
+        <div>
+
+            <h3>Todos os direitos reservados!</h3>
+
+        </div>
+          
+        <div class="fundoIcone">
+            
+            <a class="teste"  href="https://www.linkedin.com/in/jhack-rychard-de-oliveira-costa-6543251a1/"><img src="./imagens/linkedin.ico" alt="lekedin" class="icone"></a>
+             
+
+        </div>
+
+        <div>
+
+            <a class="teste"  href="https://github.com/JhackCosta"><img src="./imagens/gitHub.ico" alt="gitHub" class="icone"></a>
+
+        </div>
+
+    </div>
+
+    <script src="./script.js" defer></script>
+</body>
+
+</html>
